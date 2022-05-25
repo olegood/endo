@@ -27,7 +27,7 @@ need [Java Runtime Environment](https://www.oracle.com/java/technologies/downloa
 For options available just run:
 
 `
-$ endo --info
+$ java -jar endo.jar -info
 `
 
 ## Tools
