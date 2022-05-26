@@ -19,8 +19,8 @@ It helps in organizing workoutData data (e.g. _name_, _type_, _duration_, _notes
 
 ### Requirements
 
-Being a [Java](https://www.java.com/en/) application you
-need [Java Runtime Environment](https://www.oracle.com/java/technologies/downloads/) installed on your OS.
+Being a [Java](https://www.java.com/en/) application it
+requires [Java Runtime Environment](https://www.oracle.com/java/technologies/downloads/) installed on your OS.
 
 ### Options available
 
