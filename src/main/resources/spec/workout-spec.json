@@ -1,0 +1,29 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "*": {
+        "@(name)": "name",
+        "@(sport)": "sport",
+        "@(source)": "source",
+        "@(created_date)": "created_date",
+        "@(notes)": "notes",
+        "@(message)": "message",
+        "@(pictures)": {
+          "*": {
+            "*": {
+              "@(created_date)": "pictures[#4].created_date",
+              "@(picture)": {
+                "*": {
+                  "*": {
+                    "@(url)": "pictures[#7].url"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
