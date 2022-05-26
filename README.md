@@ -13,7 +13,7 @@ historic data.
 
 Here is a simple command-line interface application for extracting/transforming historical data into a structure of your
 preference.
-It helps in organizing workouts data (e.g. name, type, notes, pictures) in manageable units.
+It helps in organizing workoutData data (e.g. _name_, _type_, _duration_, _notes_, _pictures_) in manageable units.
 
 ## Usage
 
@@ -35,6 +35,7 @@ $ java -jar endo.jar -info
 - [Java 17 (_Amazon Corretto_)](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/what-is-corretto-17.html)
 - [Apache Maven](https://maven.apache.org/)
 - [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/)
+- [Apache Velocity](https://velocity.apache.org/)
 - [Project Lombok](https://projectlombok.org/)
 - [Jolt](https://github.com/bazaarvoice/jolt)
 - [Jackson](https://github.com/FasterXML/jackson)
