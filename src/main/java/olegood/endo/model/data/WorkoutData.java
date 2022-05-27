@@ -13,7 +13,7 @@ import java.util.Collection;
  * @author Oleg Anastassov
  */
 @Data
-public class WorkoutData {
+public final class WorkoutData {
 
   /** Custom workout name. */
   private String name;

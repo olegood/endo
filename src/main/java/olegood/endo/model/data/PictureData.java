@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
  * @author Oleg Anastassov
  */
 @Data
-public class PictureData {
+public final class PictureData {
 
   /** Date taken. */
   @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss.S")
